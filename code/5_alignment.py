@@ -4,7 +4,7 @@ import pandas as pd
 from subprocess import call
 
 #create directory for alignments
-if.os.path.exists('../data/alignments/')==False:
+if os.path.exists('../data/alignments/')==False:
 	os.mkdir('../data/alignments/')
 
 #define function for alignment
@@ -15,4 +15,4 @@ def alignment(filename):
 		shell=True)
 
 #make the function work
-pd.Series(os.listdir('../data/')).apply(alignment)
+pd.Series(os.listdir('../data/fastas/')).apply(alignment)

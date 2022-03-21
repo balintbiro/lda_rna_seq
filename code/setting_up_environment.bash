@@ -8,5 +8,6 @@ mkdir data
 mkdir results
 
 #install the programs
+conda install -c bioconda fastqc
 conda install -c bioconda hisat2
 conda install -c bioconda htseq

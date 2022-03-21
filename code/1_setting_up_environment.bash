@@ -11,3 +11,4 @@ mkdir results
 conda install -c bioconda fastqc
 conda install -c bioconda hisat2
 conda install -c bioconda htseq
+conda install -c anaconda pandas

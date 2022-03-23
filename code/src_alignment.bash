@@ -1,1 +1,0 @@
-hisat2 -x ../data/idx/Bos_taurus.ARS-UCD1.2.dna.toplevel.hisat -U ../data/fastas/filename.fastq -S ../data/alignments/filename.sam

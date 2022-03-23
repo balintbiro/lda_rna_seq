@@ -1,1 +1,0 @@
-htseq-count ../data/alignments/filename.sam ../data/Bos_taurus.ARS-UCD1.2.105.gtf > ../data/gene_counts/filename.txt

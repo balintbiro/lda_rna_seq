@@ -5,7 +5,7 @@ import pandas as pd
 #define function for reading pandas series
 def count_reader(filename):
 	sample_id=f"{filename.split('.')[0]}_counts"
-	gene_counts=pd.read_csv(f'../data/gene_counts_old/{filename}',
+	gene_counts=pd.read_csv(f'../data/gene_counts/{filename}',
 		sep='\t',
 		index_col=0,
 		header=None,
